@@ -198,7 +198,9 @@ TABLE OF CONTENT
 .section-heading{
 	margin-bottom: 10px;
 }
-
+.section-heading-center {
+	text-align: center;
+}
 .section-heading h2{
 	position: relative;
 	font-size: 42px;
@@ -258,7 +260,19 @@ TABLE OF CONTENT
 	display: block;	
 	width: 100px;
 	height: 3px;
-	background: #01457c;;
+	background: #01457c;
+	border-radius: 25%;
+	margin-top: 15px;
+	margin-bottom: 5px;
+}
+
+.section-heading-line-center{
+	content: '';
+	display: block;	
+	width: 100px;
+	height: 3px;
+	margin: 0 auto;
+	background: #01457c;
 	border-radius: 25%;
 	margin-top: 15px;
 	margin-bottom: 5px;
@@ -4899,7 +4913,7 @@ Top Video Section
   content: '\f056';
   font-size: 18px;
   font-family: "FontAwesome";
-  color: #d21e2b;
+  color: #50b744;
   float: right;
 }
 .panel-grey .accordion-title .collapsed:after{  
