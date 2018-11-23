@@ -5109,12 +5109,12 @@ Top Video Section
     transition-duration: 0.4s;     
 }
 
-.masonry a{
+.masonry .item{
 	display: block;
 	margin-top: 10px;
 }
 
-.masonry a:first-child{
+.masonry .item:first-child{
 	margin-top: 0px;
 }
 
